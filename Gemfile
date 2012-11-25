@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
 
+group :production do
+	gem 'pg', '0.12.2'
+end
+
 group :development do
 	gem 'sqlite3', '1.3.5'
 end
